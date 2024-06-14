@@ -1,0 +1,14 @@
+# Mac
+.DS_Store
+*.dylib
+
+# Python 
+*.venv
+
+# Vim
+*.swp
+*~
+
+# Fortran
+*.o
+

@@ -1,0 +1,29 @@
+1. xfoil
+
+2 load
+	ARC0401.dat
+
+3. pane
+4. inviscid analysis
+
+	alfa 0
+
+5. viscous analysis
+	visc
+	alfa 0
+	alfa 18 (no coneverge)
+	iter
+		100
+
+6. Generate polar
+
+	pacc
+		arc0401.pol
+
+	aseq
+		-5
+		15
+		1
+	pacc
+
+
